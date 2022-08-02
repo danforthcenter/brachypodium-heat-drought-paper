@@ -1,0 +1,24 @@
+###############################################################################################
+## Housekeeping
+###############################################################################################
+
+universe                 = vanilla
+getenv                   = true
+
+request_cpus             = 4
+request_memory           = 5G
+
+ID                       = $(Cluster).$(Process)
+output                   = ./sam/$(accession).sam
+error                    = ./logs/bwa.$(ID).err
+log                      = ./logs/bwa.$(ID).log
+
+###############################################################################################
+## Executable & arguments
+###############################################################################################
+
+executable               = /bioinfo/bin/bwa
+arguments                = mem -t 4 /shares/bioinformatics/spolydore/TASSEL/Brachypodium/Bdistachyon_556_v3.0.fa /shares/mgehan_share/mgehan/brachy_accession_gbs/brachy_accesssions_GBS/gbsx-demulti/$(accession).R1.fastq.gz
+
+# Get SRA Record IDs from the intput file
+queue accession from accession-ids.txt

@@ -1,0 +1,26 @@
+###############################################################################################
+## Housekeeping
+###############################################################################################
+
+universe                 = vanilla
+getenv                   = true
+
+request_cpus             = 4
+request_memory           = 5G
+
+ID                       = $(Cluster).$(Process)
+output                   = ./bam/$(accession).bam
+error                    = ./logs/bam.$(ID).err
+log                      = ./logs/bam.$(ID).log
+
+###############################################################################################
+## Executable & arguments
+###############################################################################################
+
+executable               = /bioinfo/bin/samtools
+arguments                = view -b ./sam/$(accession).sam
+
+# Get accession IDs from the intput file
+queue accession from accession-ids.txt
+
+

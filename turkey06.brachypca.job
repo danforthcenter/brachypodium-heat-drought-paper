@@ -1,0 +1,23 @@
+###############################################################################################
+## Housekeeping
+###############################################################################################
+
+universe                 = vanilla
+getenv                   = true
+
+request_cpus             = 1
+request_memory           = 5G
+
+ID                       = $(Cluster).$(Process)
+output                   = ./logs/plinkpca.$(ID).out
+error                    = ./logs/plinkpca.$(ID).err
+log                      = ./logs/plinkpca.$(ID).log
+
+###############################################################################################
+## Executable & arguments
+###############################################################################################
+
+executable               = /bioinfo/bin/plink
+arguments                = --pca --file /home/eludwig/brachypodium/gbs_data/turkey_stackspopulations/populations.plink --out /home/eludwig/brachypodium/gbs_data/turkey_plinkpca/turkeypca --allow-extra-chr
+
+queue

@@ -1,0 +1,18 @@
+####################
+# TASSEL-GBS vcf2hapmap
+####################
+
+universe         = vanilla
+getenv           = true
+accounting_group = $ENV(CONDOR_GROUP)
+notification     = Complete
+request_memory   = 2G
+
+executable       = /shares/bioinfo/installs/tassel-5-standalone/run_pipeline.pl
+arguments        = -fork1 -vcf populations.snps.vcf -export -exportType Hapmap -runfork1
+
+log              = $(Cluster).$(Process).vcf2hapmap.log
+output           = $(Cluster).$(Process).vcf2hapmap.out
+error            = $(Cluster).$(Process).vcf2hapmap.error
+
+queue

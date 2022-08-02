@@ -1,0 +1,18 @@
+####################
+# TASSEL-GBS sortvcf
+####################
+
+universe         = vanilla
+getenv           = true
+accounting_group = $ENV(CONDOR_GROUP)
+notification     = Complete
+request_memory   = 2G
+
+executable       = /shares/bioinfo/installs/tassel-5-standalone/run_pipeline.pl
+arguments        =  -SortGenotypeFilePlugin -inputFile [populations.snps.vcf] outputFile [sorted.vcf] -h -Xms100G -Xmx200G -fork1 -runfork1 
+
+log              = $(Cluster).$(Process).sortvcf.log
+output           = $(Cluster).$(Process).sortvcf.out
+error            = $(Cluster).$(Process).sortvcf.error
+
+queue

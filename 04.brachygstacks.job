@@ -1,0 +1,23 @@
+###############################################################################################
+## Housekeeping
+###############################################################################################
+
+universe                 = vanilla
+getenv                   = true
+
+request_cpus             = 10
+request_memory           = 5G
+
+ID                       = $(Cluster).$(Process)
+output                   = ./logs/gstacks.$(ID).out
+error                    = ./logs/gstacks.$(ID).err
+log                      = ./logs/gstacks.$(ID).log
+
+###############################################################################################
+## Executable & arguments
+###############################################################################################
+
+executable               = /bioinfo/bin/gstacks
+arguments                = -I /home/eludwig/brachypodium/gbs_data/sorted_bam/ -M /home/eludwig/brachypodium/gbs_data/popmap.txt -O /home/eludwig/brachypodium/gbs_data/gstacks/
+
+queue

@@ -1,0 +1,23 @@
+###############################################################################################
+## Housekeeping
+###############################################################################################
+
+universe                 = vanilla
+getenv                   = true
+
+request_cpus             = 10
+request_memory           = 5G
+
+ID                       = $(Cluster).$(Process)
+output                   = ./logs/stackspopulations.$(ID).out
+error                    = ./logs/stackspopulations.$(ID).err
+log                      = ./logs/stackspopulations.$(ID).log
+
+###############################################################################################
+## Executable & arguments
+###############################################################################################
+
+executable               = /bioinfo/bin/populations
+arguments                = -P /home/eludwig/brachypodium/gbs_data/gstacks/ -O /home/eludwig/brachypodium/gbs_data/stackspopulations/ -M /home/eludwig/brachypodium/gbs_data/popmap.txt -t 10 -r 0.8 --min-maf 0.10 --write-single-snp --plink --structure --vcf
+
+queue
