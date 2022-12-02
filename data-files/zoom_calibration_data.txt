@@ -1,0 +1,36 @@
+reference	position	lifter	camera	zoom	area_px	rel_area	length_px	length_cm
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	1	229580	1	470	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	500	291404	1.26929175	528	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	1000	396792	1.728338705	618	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	1500	550672	2.39860615	732	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	2000	792380	3.451433052	872	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	2500	1160468	5.054743445	1058	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	3000	1699816	7.404024741	1278	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	3500	2455720	10.69657636	1550	13.2
+13.2 cm x 13.2 cm box top 	raised	0	VIS TV	4000	3513820	15.3054273	1854	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	1	46856	1	370	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	500	59780	1.275823801	420	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	1000	81936	1.748676797	494	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	1500	116112	2.47806044	588	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	2000	170872	3.646747482	712	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	2500	250108	5.337800922	864	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	3000	364032	7.769165102	1052	13.2
+13.2 cm x 3.7 cm box side	raised	1	VIS SV	3500	514404	10.97840191	1274	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	1	184104	1	422	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	500	234936	1.27610481	476	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	1000	317012	1.721918046	554	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	1500	444120	2.41233216	656	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	2000	648432	3.522096206	792	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	2500	938352	5.096858297	948	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	3000	1372960	7.457524008	1150	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	3500	1996716	10.84558728	1402	13.2
+13.2 cm x 13.2 cm box top 	car top	0	VIS TV	4000	2871412	15.59668448	1674	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	1	43960	1	374	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	500	55948	1.272702457	424	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	1000	77292	1.758234759	494	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	1500	109284	2.485987261	590	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	2000	160484	3.650682439	714	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	2500	237948	5.412829845	870	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	3000	353416	8.039490446	1058	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	3500	513304	11.6766151	1274	13.2
+13.2 cm x 3.7 cm box side	car top	2	VIS SV	4000	740088	16.83548681	1546	13.2
