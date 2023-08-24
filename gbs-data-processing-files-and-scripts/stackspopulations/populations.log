@@ -1,0 +1,61 @@
+condor_exec.exe v2.4, executed 2021-10-13 10:44:26 (zlib-1.2.7)
+condor_exec.exe -P /home/eludwig/brachypodium/gbs_data/gstacks/ -O /home/eludwig/brachypodium/gbs_data/stackspopulations/ -M /home/eludwig/brachypodium/gbs_data/popmap.txt -t 10 -r 0.8 --min-maf 0.10 --write-single-snp --plink --structure --vcf
+Locus/sample distributions will be written to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0.1
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  Fstats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 145 samples, 1 population(s), 1 group(s).
+Working on 145 samples.
+Working on 1 population(s):
+    1: ABR12, ABR14, ABR2, ABR3, ABR4, ABR5, ABR6, ABR7, ABR9, ARC1, Adi-1, Adi-13, Adi-14, Adi-15, Adi-17, Adi-18, Adi-2, Adi-3, 
+       Adi-4, Adi-5, Adi-7, Adi-8, Adi-9, Ban2, Bar2, Bd1-1, Bd21-0, Bd21-3, BdTR10A, BdTR10B, BdTR10C, BdTR10D, BdTR10E, BdTR10F, 
+       BdTR10H, BdTR10I, BdTR10J, BdTR10K, BdTR10M, BdTR11A, BdTR11B, BdTR11C, BdTR11D, BdTR11E, BdTR11F, BdTR11G, BdTR11H, BdTR11I, 
+       BdTR12A, BdTR12B, BdTR13A, BdTR13B, BdTR13C, BdTR13D, BdTR13E, BdTR13F, BdTR13G, BdTR13H, BdTR13J, BdTR13K, BdTR13M, BdTR13N, 
+       BdTR13O, BdTR1A, BdTR1B, BdTR1C, BdTR1D, BdTR1E, BdTR1G, BdTR1I, BdTR1J, BdTR1K, BdTR1M, BdTR1N, BdTR2B, BdTR2C, BdTR2D, 
+       BdTR2E, BdTR2F, BdTR2G, BdTR2H, BdTR2I, BdTR2J, BdTR2K, BdTR2M, BdTR2N, BdTR2O, BdTR2P, BdTR2R, BdTR2S, BdTR3A, BdTR3B, BdTR3F, 
+       BdTR3H, BdTR3I, BdTR3M, BdTR3N, BdTR3O, BdTR3P, BdTR3R, BdTR3S, BdTR3T, BdTR5A, BdTR5B, BdTR5E, BdTR5G, BdTR5H, BdTR5I, BdTR5J, 
+       BdTR5K, BdTR5M, BdTR5N, BdTR5O, BdTR8A, BdTR8M, BdTR8N, BdTR9A, BdTR9E, BdTR9G, BdTR9H, BdTR9I, BdTR9K, Bis-1, Fon2, Gaz-2, 
+       Gaz-3, Gaz-4, Gaz-5, Gaz-7, Gaz-8, Jer1, Kah-2, Kah-3, Kah-6, Koz-2, Koz-3, Luc1, MIR1, Mon1, Mon3, Per1, Sig2, Tek-4, Tek-5, 
+       Yas3
+Working on 1 group(s) of populations:
+    defaultgrp: 1
+
+Polymorphic sites in PLINK format will be written to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.plink.ped'
+Polymorphic sites in Structure format will be written to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.structure'
+SNPs and calls will be written in VCF format to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.snps.vcf'
+Genotyping markers will be written to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.markers.tsv'
+Raw Genotypes/Haplotypes will be written to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/eludwig/brachypodium/gbs_data/stackspopulations/populations.log.distribs'.
+Now processing...
+Bd1 
+Bd2 
+Bd3 
+Bd4 
+Bd5 
+ 
+
+Removed 158135 loci that did not pass sample/population constraints from 173087 loci.
+Kept 14952 loci, composed of 1358171 sites; 21927 of those sites were filtered, 2977 variant sites remained.
+    1353966 genomic sites, of which 4205 were covered by multiple loci (0.3%).
+Mean genotyped sites per locus: 90.83bp (stderr 0.04).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  1: 135.65 samples per locus; pi: 0.35258; all/variant/polymorphic sites: 1358123/2977/2977; private alleles: 0
+Populations is done.
